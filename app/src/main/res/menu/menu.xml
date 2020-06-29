@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuEdit"
+        android:title="Edit" />
+    <item android:id="@+id/menuExit"
+        android:title="Exit" />
+    <item android:id="@+id/menuUndo"
+        android:title="Undo" />
+    <item android:id="@+id/menuHelp"
+        android:title="Help" />
+    <item android:id="@+id/menuSearch"
+        android:title="Search" />
+    <item android:id="@+id/menuAbout"
+        android:title="About" />
+
+    <item android:id="@+id/menuSubItem"
+        android:title="File">
+        <!--  submenu -->
+        <menu>
+            <item android:id="@+id/menuOpen"
+                android:title="Open" />
+            <item android:id="@+id/menuSave"
+                android:title="Save" />
+            <item android:id="@+id/menuDelete"
+                android:title="Delete" />
+        </menu>
+    </item>
+</menu>
