@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // add comment
-        Log.e("Hi", "123");
+        Log.e("Hi", "456");
 
         setContentView(R.layout.activity_main);
         ImageButton emailBtn = findViewById(R.id.emailBtn);
