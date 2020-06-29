@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
         super.onCreate(savedInstanceState);
         // add comment
         Log.e("Hi", "456");
-        Log.e("Hi", "0000");
+        Log.e("Hi", "1111");
 
         setContentView(R.layout.activity_main);
         ImageButton emailBtn = findViewById(R.id.emailBtn);
