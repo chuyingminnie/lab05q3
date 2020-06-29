@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -16,6 +17,9 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // add comment
+        Log.e("Hi", "123");
+
         setContentView(R.layout.activity_main);
         ImageButton emailBtn = findViewById(R.id.emailBtn);
         registerForContextMenu(emailBtn);
